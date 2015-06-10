@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is NFC supported on the device?"
+            android:id="@+id/textView"
+            android:background="@color/background_material_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNfcSupported"
+            android:layout_gravity="left" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="40px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Is NFC enabled on the device?"
+            android:id="@+id/textView2"
+            android:background="@color/background_material_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNfcEnabled"
+            android:layout_gravity="left" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="40px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Action (Intent type):"
+            android:id="@+id/textView3"
+            android:background="@color/background_material_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAction"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="40px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tech:"
+            android:id="@+id/textView4"
+            android:background="@color/background_material_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTech"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="40px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Content:"
+            android:id="@+id/textView5"
+            android:background="@color/background_material_light"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNfcContent"
+            android:layout_gravity="left"/>
+    </LinearLayout>
+</LinearLayout>
